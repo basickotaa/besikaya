@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "base-64": "^1.0.0",
+    "express": "^4.17.3",
+    "google-open-translate": "^1.0.1",
+    "imgbb-uploader": "^1.3.5",
+    "jsdom": "^19.0.0",
+    "kingamda-logomaker": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "tiktok-scraper": "^1.4.36",
+    "utf8": "^3.0.0",
+    "youtube-search": "^1.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

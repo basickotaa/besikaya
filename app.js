@@ -27,7 +27,7 @@ const app = express();
 *-----------------------------------------------------------------------
 */
 
-app.get('/tiktok', (req, res) => {
+app.get('api/tiktok', (req, res) => {
     if(!req.query.url){
             res.send('Enter Valid Url')
 }
@@ -50,7 +50,7 @@ app.get('/tiktok', (req, res) => {
 *------------------------------------------------------------------------
 */
 
-app.get('/tiktok2', (req, res) => {
+app.get('api/tiktok2', (req, res) => {
         if(!req.query.url){
                 res.send('Enter Valid Url')
     }
@@ -79,7 +79,7 @@ app.get('/tiktok2', (req, res) => {
 *-----------------------------------------------------------------------
 */
 
-app.get('/yts', (req, res) => {
+app.get('api/yts', (req, res) => {
     if(!req.query.q){
             res.send('Enter Valid Url') 
 }
@@ -101,7 +101,7 @@ app.get('/yts', (req, res) => {
 *-----------------------------------------------------------------------
 */  
 
-app.get('/fb', (req, res) => {
+app.get('api/fb', (req, res) => {
     if(!req.query.q){
             res.send('Enter Valid Url') 
 }
@@ -124,7 +124,7 @@ app.get('/fb', (req, res) => {
 *------------------------------------------------------------------
 */  
 
-app.get('/gimg', (req, res) => {
+app.get('api/gimg', (req, res) => {
     if(!req.query.q){
             res.send('Enter Valid Url') 
 }
@@ -148,7 +148,7 @@ app.get('/gimg', (req, res) => {
 *--------------------------------------------------------
 */  
 
-app.get('/iplookup', (req, res) => {
+app.get('api/iplookup', (req, res) => {
     if(!req.query.ip){
             res.send('Enter Valid Url') 
 }
@@ -172,7 +172,7 @@ app.get('/iplookup', (req, res) => {
 *--------------------------------------------------------------
 */  
 
-app.get('/github', (req, res) => {
+app.get('api/github', (req, res) => {
         if(!req.query.username){
                 res.send('Enter Valid Url') 
     }
@@ -195,7 +195,7 @@ app.get('/github', (req, res) => {
 *----------------------------------------------------------
 */  
 
-app.get('/bin', (req, res) => {
+app.get('api/bin', (req, res) => {
         if(!req.query.bin){
                 res.send('Enter Valid Url') 
     }
@@ -218,7 +218,7 @@ app.get('/bin', (req, res) => {
 *--------------------------------------------------------
 */  
 
-app.get('/removebg', (req, res) => {
+app.get('api/removebg', (req, res) => {
         if(!req.query.url){
                 res.send('Enter Valid Url') 
     }
@@ -241,7 +241,7 @@ app.get('/removebg', (req, res) => {
 *--------------------------------------------------------
 */  
 
-app.get('/base64', (req, res) => {
+app.get('api/base64', (req, res) => {
         if(!req.query.q){
                 res.send('Enter Valid Url') 
     }
@@ -265,7 +265,7 @@ app.get('/base64', (req, res) => {
 *--------------------------------------------------------
 */  
 
-app.get('/translate', (req, res) => {
+app.get('api/translate', (req, res) => {
         if(!req.query.text){
                 res.send('Enter Required Parameter') 
     }
@@ -288,7 +288,7 @@ app.get('/translate', (req, res) => {
 *--------------------------------------------------------
 */  
 
-app.get('/ytmp3', (req, res) => {
+app.get('api/ytmp3', (req, res) => {
         if(!req.query.q){
                 res.send('Enter Required Parameter') 
     }
@@ -312,7 +312,7 @@ app.get('/ytmp3', (req, res) => {
 *-----------------------------------------------------------------------
 */
 
-app.get('/ytmp4', (req, res) => {
+app.get('api/ytmp4', (req, res) => {
         if(!req.query.q){
                 res.send('Enter Valid Url') 
     }
@@ -336,7 +336,7 @@ app.get('/ytmp4', (req, res) => {
 *---------------------------------------------------------
 */
 
-app.get('/textprome', (req, res) => {
+app.get('api/textprome', (req, res) => {
         if(!req.query.url){
                 res.send('Enter Valid Url') 
     }
